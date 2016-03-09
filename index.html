@@ -1,0 +1,17 @@
+<!-- Firstly we are going to create a index.html file -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Speak Application Demo </title>
+	<script type="text/javascript" src="js/Speak.js"></script>
+</head>
+<body>
+<textarea id="text"></textarea>
+<button onclick="submit()">Speak</button>
+</body>
+<script type="text/javascript">
+	function submit () {
+		Speaker.elementId("text");
+	}
+</script>
+</html>
